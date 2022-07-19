@@ -1,2 +1,5 @@
 <router-outlet></router-outlet>
-<app-navigation></app-navigation>
+<div class="loader center-h center-v" *ngIf="visible">
+    <img src="../assets/images/giphy.gif">
+</div>
+<app-side-navigation></app-side-navigation>

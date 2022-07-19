@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavigationComponent } from './navigation/navigation.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { FormsModule } from '@angular/forms';
+import { SideNavigationComponent } from './Components/side-navigation/side-navigation.component';
 @NgModule({
-  declarations: [AppComponent, NavigationComponent],
+  declarations: [AppComponent, SideNavigationComponent],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, MaterialModule,FormsModule],
   providers: [],
   bootstrap: [AppComponent],

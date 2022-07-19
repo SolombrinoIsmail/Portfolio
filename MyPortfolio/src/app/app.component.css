@@ -1,0 +1,15 @@
+.loader {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.center-h {
+  display: flex;
+  justify-content: center;
+}
+
+.center-v {
+  display: flex;
+  align-items: center;
+}
